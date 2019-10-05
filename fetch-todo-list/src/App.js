@@ -24,6 +24,7 @@ class App extends Component {
           <h1>To Do List {totalCount}</h1>
           {this.state.todos.map((todo, key) => 
             <div className="todo-grid" key={key}>
+              <span className="count"> {key + 1} </span>
               <h2> {todo.title} </h2>
               <h6> { todo.completed && 
                   <span className="completed">

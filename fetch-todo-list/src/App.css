@@ -44,6 +44,12 @@ h6 {
   margin-top: 10px;
 }
 
+.count {
+  display: block;
+  font-size: 10px;
+  text-align: right;
+}
+
 .completed {
   color: green;
 }
